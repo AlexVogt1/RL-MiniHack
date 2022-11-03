@@ -1,4 +1,3 @@
-from tabnanny import verbose
 import numpy as np
 import matplotlib.pyplot as plt
 import gym
@@ -7,20 +6,14 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-import random
-from collections import deque
-
 from tqdm import tqdm
 
-import gym
-from gym import spaces
-import cv2
-import random
 from nle import nethack
 import minihack
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+# REINFORCE Policy Model
 class SimplePolicy(nn.Module):
     def __init__(self, s_size=1659, h_size=5, a_size=8):
 
@@ -37,10 +30,8 @@ class SimplePolicy(nn.Module):
     def action(self, pr):
         try:
             r = np.random.choice(np.arange(len(pr.squeeze(0).detach().cpu().numpy())), p=pr.squeeze(0).detach().cpu().numpy())
-            #print("Not Random" + "-"*15)
             return r
         except:
-            #print("Random" + "-"*15)
             return np.random.choice(np.arange(len(pr)))
 
 
@@ -58,14 +49,16 @@ actions = tuple(nethack.CompassDirection) + (
     nethack.Command.OPEN
 )
 
-pol = torch.load('./model_post/model_25k')
-
+# Loading saved model and creating enviroment
+pol = torch.load('./model/model_25k')
 env = gym.make("MiniHack-LavaCross-Levitate-Potion-Inv-v0", observation_keys=["chars", "glyphs"], actions=actions)
 
+# Hyperparameters
 NUM_EP = 500
 RUNS = 5
 r_total = [None] * NUM_EP
 
+# Main testing loop
 for run in range(RUNS):
     for ep in tqdm(range(NUM_EP)):
         done = False
@@ -78,6 +71,7 @@ for run in range(RUNS):
         reward = 0
 
         while not done and i < 10000:
+            # See ./reinforce_train.py for more details on how this works
             i += 1
             obs = env.step(action)
             state_prime = np.array([obs[0]['chars'].flatten(), obs[0]['glyphs'].flatten()]).flatten()
@@ -90,6 +84,7 @@ for run in range(RUNS):
 
             pi = pi_prime
 
+            # Tracking rewards
             if not r_total[ep] is None : r_total[ep] += reward 
             else: r_total[ep] = reward
 
@@ -99,6 +94,8 @@ def moving_average(a, n):
     ret = np.cumsum(a, dtype=float)
     ret[n:] = ret[n:] - ret[:-n]    
     return ret / n
+    
+# Plotting average rewards over episodes
 plt.title("Average Reward - Lava Room")
 plt.plot(moving_average(r_total, 15))
 plt.legend(['Rolling Average of size 15'])
