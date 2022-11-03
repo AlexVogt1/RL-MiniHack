@@ -53,7 +53,7 @@ pol = torch.load('./model_post/model_25k')
 
 env = gym.make("MiniHack-Room-Random-15x15-v0", observation_keys=["chars", "glyphs"], actions=actions)
 
-NUM_EP = 3500
+NUM_EP = 500
 RUNS = 5
 r_total = [None] * NUM_EP
 
