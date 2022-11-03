@@ -98,4 +98,4 @@ while not done and i < 1000:
     pi = pi_prime
 
 # Generate gif from observed frames
-save_gif(frames_to_gif(frames), './gifs/z')
+save_gif(frames_to_gif(frames), './gifs/output')
