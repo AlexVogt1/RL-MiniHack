@@ -1,44 +1,45 @@
-import torch.nn as nn
+#imports
+import torch
 import torch.nn.functional as F
+import torch.nn as nn
 from gym import spaces
-
+from torch.optim import Optimizer
+import numpy as np
 
 class DQN(nn.Module):
     """
-    A basic implementation of a Deep Q-Network. The architecture is the same as that described in the
-    Nature DQN paper.
-    DQN(
-        (conv1): Conv2d(210, 32, kernel_size=(8, 8), stride=(4, 4))
-        (conv2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
-        (conv3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
-        (linear1): Linear(in_features=3136, out_features=512, bias=True)
-        (linear2): Linear(in_features=512, out_features=6, bias=True)
-    )
+    A basic implementation of a Deep Q-Network.
     """
 
-    def __init__(self,
-                 observation_space: spaces.Box,
-                 action_space: spaces.Discrete):
-        """
-        Initialise the DQN
-        :param observation_space: the state space of the environment
-        :param action_space: the action space of the environment
-        """
+    #inti the DQN that takes in an the action space as a param so that the output is action list probabilities
+    def __init__(self, action_space: spaces.Discrete):
         super().__init__()
-        assert type(observation_space) == spaces.Box, 'observation_space must be of type Box'
-        assert len(observation_space.shape) == 3, 'observation space must have the form channels x width x height'
-        assert type(action_space) == spaces.Discrete, 'action_space must be of type Discrete'
-        self.conv1 = nn.Conv2d(observation_space.shape[0], 32, 8, stride=4)
-        self.conv2 = nn.Conv2d(32, 64, 4, stride=2)
-        self.conv3 = nn.Conv2d(64, 64, 3, stride=1)
-        self.linear1 = nn.Linear(64 * 7 * 7, 512)
-        self.linear2 = nn.Linear(512, action_space.n)
+        
+        self.conv1 = nn.Conv2d(in_channels=1, out_channels=20,kernel_size=(5, 5))
+        self.relu1 = nn.ReLU()
+        self.maxpool1 = nn.MaxPool2d(kernel_size=(2, 2), stride=(2, 2))
+        # initialize second set of CONV => RELU => POOL layers
+        self.conv2 = nn.Conv2d(in_channels=20, out_channels=50,kernel_size=(5, 5))
+        self.relu2 = nn.ReLU()
+        self.maxpool2 = nn.MaxPool2d(kernel_size=(2, 2), stride=(2, 2))
+        # initialize first (and only) set of FC => RELU layers
+        self.fc1 = nn.Linear(in_features=1600, out_features=500)
+        self.relu3 = nn.ReLU()
+        self.fc2 = nn.Linear(in_features=500, out_features=action_space.n)
 
+    #forward pass for network
     def forward(self, x):
-        x = F.relu(self.conv1(x))
-        x = F.relu(self.conv2(x))
-        x = F.relu(self.conv3(x))
-        x = x.view(-1, 64 * 7 * 7)  # flatten
-        x = F.relu(self.linear1(x))
-        x = self.linear2(x)
-        return 
+        # define first conv layer with max pooling
+        x = self.conv1(x)
+        x = self.relu1(x)
+        x = self.maxpool1(x)
+        # define second conv layer with max pooling
+        x = self.conv2(x)
+        x = self.relu2(x)
+        x = self.maxpool2(x)
+        # Define fully connected layers
+        x = x.reshape(x.shape[0], -1)
+        x = self.fc1(x)
+        x = self.relu3(x)
+        x = self.fc2(x)
+        return x

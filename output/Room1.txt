@@ -1,0 +1,1601 @@
+847
+episode reward: 0.45999999999999974
+episode reward: 0.44999999999999973
+episode reward: 0.44999999999999973
+episode reward: 0.87
+episode reward: 0.45999999999999974
+episode reward: 0.47999999999999976
+episode reward: 0.44999999999999973
+episode reward: 0.16999999999999948
+episode reward: 0.6599999999999999
+episode reward: 0.5999999999999999
+********************************************************
+steps: 1679
+episodes: 10
+mean 100 episode reward: 0.5
+% time spent exploring: 0.98111125
+********************************************************
+episode reward: 0.2699999999999996
+episode reward: 0.83
+episode reward: 0.88
+episode reward: 0.4999999999999998
+episode reward: 0.8099999999999999
+episode reward: 0.5499999999999998
+episode reward: 0.9
+episode reward: 0.89
+episode reward: 0.5599999999999998
+episode reward: 0.84
+********************************************************
+steps: 2722
+episodes: 20
+mean 100 episode reward: 0.6
+% time spent exploring: 0.9693775
+********************************************************
+episode reward: 0.95
+episode reward: 0.22999999999999954
+episode reward: 0.75
+episode reward: 0.21999999999999953
+episode reward: 0.5099999999999998
+episode reward: 0.7899999999999999
+episode reward: 0.85
+episode reward: 0.82
+episode reward: 0.8099999999999999
+episode reward: 0.95
+********************************************************
+steps: 3696
+episodes: 30
+mean 100 episode reward: 0.6
+% time spent exploring: 0.95842
+********************************************************
+episode reward: 0.86
+episode reward: 0.7999999999999999
+episode reward: 0.45999999999999974
+episode reward: 0.87
+episode reward: 0.6699999999999999
+episode reward: 0.85
+episode reward: 0.92
+episode reward: -0.09000000000000075
+episode reward: 0.7999999999999999
+episode reward: 0.7899999999999999
+********************************************************
+steps: 4834
+episodes: 40
+mean 100 episode reward: 0.6
+% time spent exploring: 0.9456175
+********************************************************
+episode reward: 0.3999999999999997
+episode reward: 0.98
+episode reward: 0.98
+episode reward: 0.6699999999999999
+episode reward: 0.91
+episode reward: 0.9
+episode reward: 0.9
+episode reward: 0.88
+episode reward: 0.34999999999999964
+episode reward: 0.8099999999999999
+********************************************************
+steps: 5785
+episodes: 50
+mean 100 episode reward: 0.7
+% time spent exploring: 0.93491875
+********************************************************
+episode reward: 0.6699999999999999
+episode reward: 0.82
+episode reward: 0.87
+episode reward: 0.92
+episode reward: 0.7
+episode reward: 0.99
+episode reward: 0.82
+episode reward: 0.99
+episode reward: 0.48999999999999977
+episode reward: 0.89
+********************************************************
+steps: 6391
+episodes: 60
+mean 100 episode reward: 0.7
+% time spent exploring: 0.92810125
+********************************************************
+episode reward: 0.9
+episode reward: 0.84
+episode reward: 0.6799999999999999
+episode reward: 0.5199999999999998
+episode reward: 0.96
+episode reward: 0.86
+episode reward: 0.74
+episode reward: 0.7899999999999999
+episode reward: 0.5599999999999998
+episode reward: 0.9
+********************************************************
+steps: 7157
+episodes: 70
+mean 100 episode reward: 0.7
+% time spent exploring: 0.91948375
+********************************************************
+episode reward: 0.89
+episode reward: 0.87
+episode reward: 0.3099999999999996
+episode reward: 0.88
+episode reward: 0.92
+episode reward: 0.92
+episode reward: 0.5899999999999999
+episode reward: 0.73
+episode reward: 0.72
+episode reward: 0.92
+********************************************************
+steps: 7924
+episodes: 80
+mean 100 episode reward: 0.7
+% time spent exploring: 0.910855
+********************************************************
+episode reward: 0.91
+episode reward: 0.87
+episode reward: 0.83
+episode reward: 0.94
+episode reward: 0.1799999999999995
+episode reward: 0.9
+episode reward: 0.85
+episode reward: 0.9299999999999999
+episode reward: 0.91
+episode reward: 0.96
+********************************************************
+steps: 8531
+episodes: 90
+mean 100 episode reward: 0.7
+% time spent exploring: 0.90402625
+********************************************************
+episode reward: 0.6699999999999999
+episode reward: 0.71
+episode reward: 0.7999999999999999
+episode reward: 0.92
+episode reward: 0.85
+episode reward: 0.91
+episode reward: 0.7
+episode reward: 0.6099999999999999
+episode reward: 0.99
+episode reward: 0.89
+********************************************************
+steps: 9238
+episodes: 100
+mean 100 episode reward: 0.7
+% time spent exploring: 0.8960725
+********************************************************
+episode reward: 0.9299999999999999
+episode reward: 0.85
+episode reward: 0.7599999999999999
+episode reward: 0.9299999999999999
+episode reward: 0.83
+episode reward: 0.85
+episode reward: 0.69
+episode reward: 0.6799999999999999
+episode reward: 0.4999999999999998
+episode reward: 0.94
+********************************************************
+steps: 10003
+episodes: 110
+mean 100 episode reward: 0.8
+% time spent exploring: 0.88746625
+********************************************************
+episode reward: 0.94
+episode reward: 0.85
+episode reward: 0.87
+episode reward: 0.6799999999999999
+episode reward: 0.74
+episode reward: 0.91
+episode reward: 0.89
+episode reward: 0.75
+episode reward: 0.5599999999999998
+episode reward: 0.97
+********************************************************
+steps: 10581
+episodes: 120
+mean 100 episode reward: 0.8
+% time spent exploring: 0.88096375
+********************************************************
+episode reward: 0.86
+episode reward: 0.91
+episode reward: 0.87
+episode reward: 0.86
+episode reward: 0.6199999999999999
+episode reward: 0.82
+episode reward: 0.9
+episode reward: 0.7999999999999999
+episode reward: 0.98
+episode reward: 0.96
+********************************************************
+steps: 11112
+episodes: 130
+mean 100 episode reward: 0.8
+% time spent exploring: 0.8749899999999999
+********************************************************
+episode reward: 0.85
+episode reward: 0.92
+episode reward: 0.82
+episode reward: 0.91
+episode reward: 0.94
+episode reward: 0.95
+episode reward: 0.87
+episode reward: 0.7799999999999999
+episode reward: 0.9299999999999999
+episode reward: 0.92
+********************************************************
+steps: 11482
+episodes: 140
+mean 100 episode reward: 0.8
+% time spent exploring: 0.8708275
+********************************************************
+episode reward: 0.98
+episode reward: 0.86
+episode reward: 0.89
+episode reward: 0.9
+episode reward: 0.9
+episode reward: 0.9
+episode reward: 0.82
+episode reward: 0.5199999999999998
+episode reward: 0.6699999999999999
+episode reward: 0.94
+********************************************************
+steps: 12048
+episodes: 150
+mean 100 episode reward: 0.8
+% time spent exploring: 0.86446
+********************************************************
+episode reward: 0.84
+episode reward: 0.5999999999999999
+episode reward: 0.7699999999999999
+episode reward: 0.95
+episode reward: 0.7699999999999999
+episode reward: 0.94
+episode reward: 0.94
+episode reward: 0.9
+episode reward: 0.9299999999999999
+episode reward: 0.82
+********************************************************
+steps: 12595
+episodes: 160
+mean 100 episode reward: 0.8
+% time spent exploring: 0.85830625
+********************************************************
+episode reward: 0.7699999999999999
+episode reward: 0.84
+episode reward: 0.88
+episode reward: 0.7899999999999999
+episode reward: 0.9
+episode reward: 0.94
+episode reward: 0.6799999999999999
+episode reward: 0.87
+episode reward: 0.92
+episode reward: 0.94
+********************************************************
+steps: 13117
+episodes: 170
+mean 100 episode reward: 0.8
+% time spent exploring: 0.85243375
+********************************************************
+episode reward: 0.96
+episode reward: 0.6799999999999999
+episode reward: 0.83
+episode reward: 0.7799999999999999
+episode reward: 0.99
+episode reward: 0.4199999999999997
+episode reward: 0.73
+episode reward: 0.9299999999999999
+episode reward: 0.69
+episode reward: 0.4399999999999997
+********************************************************
+steps: 13883
+episodes: 180
+mean 100 episode reward: 0.8
+% time spent exploring: 0.8438162499999999
+********************************************************
+episode reward: 0.72
+episode reward: 0.7899999999999999
+episode reward: 0.88
+episode reward: 0.92
+episode reward: 0.96
+episode reward: 0.75
+episode reward: 0.9
+episode reward: 0.71
+episode reward: 0.75
+episode reward: 0.4399999999999997
+********************************************************
+steps: 14567
+episodes: 190
+mean 100 episode reward: 0.8
+% time spent exploring: 0.8361212499999999
+********************************************************
+episode reward: 0.95
+episode reward: 0.85
+episode reward: 0.91
+episode reward: 0.72
+episode reward: 0.87
+episode reward: 0.99
+episode reward: 1.0
+episode reward: 1.0
+episode reward: 0.5199999999999998
+episode reward: 0.82
+********************************************************
+steps: 15112
+episodes: 200
+mean 100 episode reward: 0.8
+% time spent exploring: 0.82999
+********************************************************
+episode reward: 0.6599999999999999
+episode reward: 0.91
+episode reward: 0.71
+episode reward: 0.95
+episode reward: 0.3099999999999996
+episode reward: 0.98
+episode reward: 0.9299999999999999
+episode reward: 0.89
+episode reward: 0.92
+episode reward: 0.45999999999999974
+********************************************************
+steps: 15904
+episodes: 210
+mean 100 episode reward: 0.8
+% time spent exploring: 0.82108
+********************************************************
+episode reward: 0.99
+episode reward: 0.86
+episode reward: 0.5799999999999998
+episode reward: 0.89
+episode reward: 0.9299999999999999
+episode reward: 0.71
+episode reward: 0.73
+episode reward: 0.89
+episode reward: 0.95
+episode reward: 0.89
+********************************************************
+steps: 16504
+episodes: 220
+mean 100 episode reward: 0.8
+% time spent exploring: 0.81433
+********************************************************
+episode reward: 0.98
+episode reward: 0.7599999999999999
+episode reward: 0.04999999999999938
+episode reward: 0.89
+episode reward: 0.87
+episode reward: 0.85
+episode reward: 0.3099999999999996
+episode reward: 0.89
+episode reward: 0.74
+episode reward: 0.95
+********************************************************
+steps: 17539
+episodes: 230
+mean 100 episode reward: 0.8
+% time spent exploring: 0.80268625
+********************************************************
+episode reward: 0.97
+episode reward: 0.03999999999999937
+episode reward: 0.84
+episode reward: -0.30000000000000093
+episode reward: 0.37999999999999967
+episode reward: 0.92
+episode reward: 0.97
+episode reward: 0.6499999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.6799999999999999
+********************************************************
+steps: 18718
+episodes: 240
+mean 100 episode reward: 0.8
+% time spent exploring: 0.7894225
+********************************************************
+episode reward: 0.92
+episode reward: 0.6199999999999999
+episode reward: 0.89
+episode reward: 0.96
+episode reward: 0.7999999999999999
+episode reward: 0.99
+episode reward: 0.88
+episode reward: 0.95
+episode reward: 0.95
+episode reward: 0.83
+********************************************************
+steps: 19110
+episodes: 250
+mean 100 episode reward: 0.8
+% time spent exploring: 0.7850125
+********************************************************
+episode reward: 0.89
+episode reward: 0.73
+episode reward: 0.7599999999999999
+episode reward: 0.97
+episode reward: 1.0
+episode reward: 0.85
+episode reward: 0.92
+episode reward: 0.96
+episode reward: 0.82
+episode reward: 0.82
+********************************************************
+steps: 19614
+episodes: 260
+mean 100 episode reward: 0.8
+% time spent exploring: 0.7793425
+********************************************************
+episode reward: 0.88
+episode reward: 0.48999999999999977
+episode reward: 0.45999999999999974
+episode reward: 0.97
+episode reward: 0.7699999999999999
+episode reward: 0.92
+episode reward: 0.4299999999999997
+episode reward: 0.92
+episode reward: 0.37999999999999967
+episode reward: 0.82
+********************************************************
+steps: 20487
+episodes: 270
+mean 100 episode reward: 0.8
+% time spent exploring: 0.7695212499999999
+********************************************************
+episode reward: 0.6699999999999999
+episode reward: 0.5799999999999998
+episode reward: 0.95
+episode reward: 0.95
+episode reward: 0.94
+episode reward: 0.95
+episode reward: 0.95
+episode reward: 0.9299999999999999
+episode reward: 0.9299999999999999
+episode reward: 0.5899999999999999
+********************************************************
+steps: 20953
+episodes: 280
+mean 100 episode reward: 0.8
+% time spent exploring: 0.76427875
+********************************************************
+episode reward: -0.1500000000000008
+episode reward: 0.10999999999999943
+episode reward: 0.7899999999999999
+episode reward: 0.6799999999999999
+episode reward: 0.8099999999999999
+episode reward: 0.7599999999999999
+episode reward: 0.83
+episode reward: 0.6399999999999999
+episode reward: 0.85
+episode reward: 0.8099999999999999
+********************************************************
+steps: 22081
+episodes: 290
+mean 100 episode reward: 0.8
+% time spent exploring: 0.75158875
+********************************************************
+episode reward: 0.1999999999999995
+episode reward: 0.75
+episode reward: 0.7899999999999999
+episode reward: 0.71
+episode reward: 0.89
+episode reward: 0.96
+episode reward: 0.97
+episode reward: 0.75
+episode reward: 0.34999999999999964
+episode reward: 0.2899999999999996
+********************************************************
+steps: 23177
+episodes: 300
+mean 100 episode reward: 0.8
+% time spent exploring: 0.7392587500000001
+********************************************************
+episode reward: 0.9
+episode reward: 0.98
+episode reward: 0.99
+episode reward: 0.5999999999999999
+episode reward: 0.94
+episode reward: 0.9
+episode reward: 0.6699999999999999
+episode reward: 0.5299999999999998
+episode reward: 0.7799999999999999
+episode reward: 0.95
+********************************************************
+steps: 23715
+episodes: 310
+mean 100 episode reward: 0.8
+% time spent exploring: 0.73320625
+********************************************************
+episode reward: 0.4199999999999997
+episode reward: 1.0
+episode reward: 0.6199999999999999
+episode reward: 0.96
+episode reward: 0.1799999999999995
+episode reward: 0.89
+episode reward: 0.89
+episode reward: 0.91
+episode reward: 0.96
+episode reward: 0.9
+********************************************************
+steps: 24380
+episodes: 320
+mean 100 episode reward: 0.7
+% time spent exploring: 0.725725
+********************************************************
+episode reward: 0.8099999999999999
+episode reward: 0.9
+episode reward: 0.94
+episode reward: 0.9299999999999999
+episode reward: 0.23999999999999955
+episode reward: 0.2999999999999996
+episode reward: 0.5699999999999998
+episode reward: 0.75
+episode reward: 0.88
+episode reward: 0.7599999999999999
+********************************************************
+steps: 25239
+episodes: 330
+mean 100 episode reward: 0.7
+% time spent exploring: 0.7160612500000001
+********************************************************
+episode reward: 0.99
+episode reward: 0.86
+episode reward: 0.98
+episode reward: 0.3899999999999997
+episode reward: 0.7699999999999999
+episode reward: 0.6399999999999999
+episode reward: 0.86
+episode reward: 0.6199999999999999
+episode reward: 0.5499999999999998
+episode reward: 0.23999999999999955
+********************************************************
+steps: 25991
+episodes: 340
+mean 100 episode reward: 0.8
+% time spent exploring: 0.70760125
+********************************************************
+episode reward: 0.92
+episode reward: 0.94
+episode reward: 0.6499999999999999
+episode reward: 0.5899999999999999
+episode reward: 0.97
+episode reward: 0.3299999999999996
+episode reward: 0.92
+episode reward: 0.82
+episode reward: 0.8099999999999999
+episode reward: 0.87
+********************************************************
+steps: 26606
+episodes: 350
+mean 100 episode reward: 0.7
+% time spent exploring: 0.7006825
+********************************************************
+episode reward: 0.33999999999999964
+episode reward: 0.91
+episode reward: 0.91
+episode reward: 0.84
+episode reward: 0.4199999999999997
+episode reward: 0.9
+episode reward: 0.4399999999999997
+episode reward: 0.83
+episode reward: 0.99
+episode reward: 0.98
+********************************************************
+steps: 27249
+episodes: 360
+mean 100 episode reward: 0.7
+% time spent exploring: 0.69344875
+********************************************************
+episode reward: 0.6699999999999999
+episode reward: 0.9299999999999999
+episode reward: 0.96
+episode reward: 0.99
+episode reward: -0.08000000000000074
+episode reward: 0.94
+episode reward: 0.87
+episode reward: 0.83
+episode reward: 0.94
+episode reward: 0.6499999999999999
+********************************************************
+steps: 27948
+episodes: 370
+mean 100 episode reward: 0.7
+% time spent exploring: 0.685585
+********************************************************
+episode reward: 0.92
+episode reward: 0.44999999999999973
+episode reward: 0.88
+episode reward: 0.9299999999999999
+episode reward: 0.36999999999999966
+episode reward: 0.98
+episode reward: 0.13999999999999946
+episode reward: 0.92
+episode reward: 0.98
+episode reward: 0.04999999999999938
+********************************************************
+steps: 28760
+episodes: 380
+mean 100 episode reward: 0.7
+% time spent exploring: 0.67645
+********************************************************
+episode reward: 0.9299999999999999
+episode reward: 0.85
+episode reward: 0.21999999999999953
+episode reward: 0.9
+episode reward: 0.92
+episode reward: 0.97
+episode reward: 0.89
+episode reward: 0.6199999999999999
+episode reward: 0.98
+episode reward: 0.89
+********************************************************
+steps: 29186
+episodes: 390
+mean 100 episode reward: 0.7
+% time spent exploring: 0.6716575
+********************************************************
+episode reward: 0.7999999999999999
+episode reward: 0.7799999999999999
+episode reward: 0.87
+episode reward: 0.99
+episode reward: 0.7899999999999999
+episode reward: 0.83
+episode reward: 0.1799999999999995
+episode reward: 0.72
+episode reward: 0.82
+episode reward: 0.96
+********************************************************
+steps: 29687
+episodes: 400
+mean 100 episode reward: 0.7
+% time spent exploring: 0.66602125
+********************************************************
+episode reward: 0.13999999999999946
+episode reward: 0.95
+episode reward: 0.5099999999999998
+episode reward: 0.0799999999999994
+episode reward: 0.9
+episode reward: 1.0
+episode reward: 0.84
+episode reward: 0.99
+episode reward: 0.7599999999999999
+episode reward: 0.86
+********************************************************
+steps: 30439
+episodes: 410
+mean 100 episode reward: 0.7
+% time spent exploring: 0.65756125
+********************************************************
+episode reward: 0.4399999999999997
+episode reward: 0.96
+episode reward: 0.6499999999999999
+episode reward: 0.5399999999999998
+episode reward: 0.73
+episode reward: 0.72
+episode reward: 0.98
+episode reward: 0.2699999999999996
+episode reward: 0.7899999999999999
+episode reward: 0.99
+********************************************************
+steps: 31133
+episodes: 420
+mean 100 episode reward: 0.7
+% time spent exploring: 0.6497537499999999
+********************************************************
+episode reward: 0.9
+episode reward: 0.89
+episode reward: 0.47999999999999976
+episode reward: 0.96
+episode reward: 0.6499999999999999
+episode reward: 0.9
+episode reward: 0.97
+episode reward: 0.6499999999999999
+episode reward: 0.94
+episode reward: 0.98
+********************************************************
+steps: 31601
+episodes: 430
+mean 100 episode reward: 0.7
+% time spent exploring: 0.64448875
+********************************************************
+episode reward: 0.83
+episode reward: 0.99
+episode reward: 0.96
+episode reward: 0.74
+episode reward: 0.9299999999999999
+episode reward: 0.97
+episode reward: 0.91
+episode reward: 0.5699999999999998
+episode reward: 0.9299999999999999
+episode reward: 0.69
+********************************************************
+steps: 32014
+episodes: 440
+mean 100 episode reward: 0.8
+% time spent exploring: 0.6398425
+********************************************************
+episode reward: 0.6299999999999999
+episode reward: 0.89
+episode reward: 0.7999999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.46999999999999975
+episode reward: 0.94
+episode reward: 0.89
+episode reward: 0.72
+episode reward: 0.82
+episode reward: 0.88
+********************************************************
+steps: 32493
+episodes: 450
+mean 100 episode reward: 0.8
+% time spent exploring: 0.63445375
+********************************************************
+episode reward: -0.030000000000000693
+episode reward: 0.4299999999999997
+episode reward: 0.5399999999999998
+episode reward: 0.86
+episode reward: 0.6299999999999999
+episode reward: 0.85
+episode reward: 0.5399999999999998
+episode reward: 0.92
+episode reward: 0.2899999999999996
+episode reward: 0.98
+********************************************************
+steps: 33380
+episodes: 460
+mean 100 episode reward: 0.8
+% time spent exploring: 0.624475
+********************************************************
+episode reward: 0.94
+episode reward: 0.97
+episode reward: 0.88
+episode reward: 0.95
+episode reward: 0.99
+episode reward: 0.96
+episode reward: 0.10999999999999943
+episode reward: 0.04999999999999938
+episode reward: 0.91
+episode reward: 0.96
+********************************************************
+steps: 33890
+episodes: 470
+mean 100 episode reward: 0.7
+% time spent exploring: 0.6187374999999999
+********************************************************
+episode reward: 0.84
+episode reward: 0.9299999999999999
+episode reward: 0.75
+episode reward: 0.3099999999999996
+episode reward: 0.37999999999999967
+episode reward: 0.5899999999999999
+episode reward: 0.91
+episode reward: 0.6699999999999999
+episode reward: 0.87
+episode reward: 0.46999999999999975
+********************************************************
+steps: 34565
+episodes: 480
+mean 100 episode reward: 0.7
+% time spent exploring: 0.61114375
+********************************************************
+episode reward: 0.91
+episode reward: 0.82
+episode reward: 0.7699999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.5499999999999998
+episode reward: 0.16999999999999948
+episode reward: 0.9
+episode reward: 0.99
+episode reward: 0.99
+episode reward: 0.5099999999999998
+********************************************************
+steps: 35121
+episodes: 490
+mean 100 episode reward: 0.7
+% time spent exploring: 0.60488875
+********************************************************
+episode reward: 0.98
+episode reward: 0.6699999999999999
+episode reward: 0.46999999999999975
+episode reward: 0.74
+episode reward: 0.5399999999999998
+episode reward: 0.5399999999999998
+episode reward: 0.6599999999999999
+episode reward: 0.91
+episode reward: 0.71
+episode reward: 0.97
+********************************************************
+steps: 35691
+episodes: 500
+mean 100 episode reward: 0.7
+% time spent exploring: 0.59847625
+********************************************************
+episode reward: 0.97
+episode reward: 0.2699999999999996
+episode reward: 0.74
+episode reward: 0.94
+episode reward: 0.91
+episode reward: 0.9299999999999999
+episode reward: 0.73
+episode reward: 0.69
+episode reward: 0.87
+episode reward: 0.7699999999999999
+********************************************************
+steps: 36200
+episodes: 510
+mean 100 episode reward: 0.7
+% time spent exploring: 0.59275
+********************************************************
+episode reward: 0.3299999999999996
+episode reward: 0.7999999999999999
+episode reward: 0.6099999999999999
+episode reward: 0.94
+episode reward: 0.91
+episode reward: 0.6299999999999999
+episode reward: 0.6799999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.74
+episode reward: 0.6499999999999999
+********************************************************
+steps: 36898
+episodes: 520
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5848975000000001
+********************************************************
+episode reward: 0.20999999999999952
+episode reward: 0.96
+episode reward: 0.99
+episode reward: 0.9299999999999999
+episode reward: 0.88
+episode reward: 0.73
+episode reward: -0.5600000000000012
+episode reward: 0.94
+episode reward: 0.35999999999999965
+episode reward: 0.92
+********************************************************
+steps: 37631
+episodes: 530
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5766512500000001
+********************************************************
+episode reward: 0.74
+episode reward: 0.12999999999999945
+episode reward: 0.09999999999999942
+episode reward: 0.84
+episode reward: 0.82
+episode reward: 0.5499999999999998
+episode reward: 0.9299999999999999
+episode reward: 0.7799999999999999
+episode reward: 0.48999999999999977
+episode reward: 0.6499999999999999
+********************************************************
+steps: 38482
+episodes: 540
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5670775
+********************************************************
+episode reward: 0.9299999999999999
+episode reward: 0.91
+episode reward: -0.23000000000000087
+episode reward: 0.83
+episode reward: 0.5799999999999998
+episode reward: 0.2799999999999996
+episode reward: 0.7599999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.20999999999999952
+episode reward: 0.6599999999999999
+********************************************************
+steps: 39349
+episodes: 550
+mean 100 episode reward: 0.7
+% time spent exploring: 0.55732375
+********************************************************
+episode reward: 0.74
+episode reward: 0.8099999999999999
+episode reward: 0.87
+episode reward: 0.7999999999999999
+episode reward: 0.83
+episode reward: 0.7
+episode reward: 0.4399999999999997
+episode reward: 0.85
+episode reward: 0.6399999999999999
+episode reward: 0.96
+********************************************************
+steps: 39893
+episodes: 560
+mean 100 episode reward: 0.7
+% time spent exploring: 0.55120375
+********************************************************
+episode reward: 0.5199999999999998
+episode reward: 0.7699999999999999
+episode reward: 0.97
+episode reward: 0.5499999999999998
+episode reward: 0.92
+episode reward: 0.3199999999999996
+episode reward: 0.24999999999999956
+episode reward: 0.3299999999999996
+episode reward: 0.16999999999999948
+episode reward: 0.97
+********************************************************
+steps: 40717
+episodes: 570
+mean 100 episode reward: 0.7
+% time spent exploring: 0.54193375
+********************************************************
+episode reward: 0.9
+episode reward: 0.6799999999999999
+episode reward: 0.7999999999999999
+episode reward: 0.96
+episode reward: 0.84
+episode reward: 0.6599999999999999
+episode reward: 0.96
+episode reward: 0.89
+episode reward: 0.14999999999999947
+episode reward: 0.5799999999999998
+********************************************************
+steps: 41262
+episodes: 580
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5358025
+********************************************************
+episode reward: 0.99
+episode reward: 0.83
+episode reward: 0.5299999999999998
+episode reward: 0.9299999999999999
+episode reward: 0.2899999999999996
+episode reward: 0.4199999999999997
+episode reward: 0.2699999999999996
+episode reward: 0.6499999999999999
+episode reward: 0.5599999999999998
+episode reward: 0.87
+********************************************************
+steps: 42011
+episodes: 590
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5273762499999999
+********************************************************
+episode reward: 0.83
+episode reward: 0.2699999999999996
+episode reward: 0.5999999999999999
+episode reward: 0.7599999999999999
+episode reward: 0.0799999999999994
+episode reward: -0.5100000000000011
+episode reward: 0.5399999999999998
+episode reward: 0.87
+episode reward: 0.7899999999999999
+episode reward: 0.5299999999999998
+********************************************************
+steps: 42948
+episodes: 600
+mean 100 episode reward: 0.7
+% time spent exploring: 0.5168349999999999
+********************************************************
+episode reward: 0.21999999999999953
+episode reward: 0.2899999999999996
+episode reward: 0.7999999999999999
+episode reward: 0.3999999999999997
+episode reward: 0.7799999999999999
+episode reward: 0.86
+episode reward: 0.33999999999999964
+episode reward: 0.7599999999999999
+episode reward: 0.8099999999999999
+episode reward: 0.97
+********************************************************
+steps: 43661
+episodes: 610
+mean 100 episode reward: 0.6
+% time spent exploring: 0.50881375
+********************************************************
+episode reward: 0.3099999999999996
+episode reward: 0.71
+episode reward: 0.24999999999999956
+episode reward: 0.97
+episode reward: 0.6299999999999999
+episode reward: 0.7599999999999999
+episode reward: 0.6199999999999999
+episode reward: 0.45999999999999974
+episode reward: 0.6099999999999999
+episode reward: 0.3299999999999996
+********************************************************
+steps: 44452
+episodes: 620
+mean 100 episode reward: 0.6
+% time spent exploring: 0.499915
+********************************************************
+episode reward: 0.6199999999999999
+episode reward: 0.02999999999999936
+episode reward: 0.89
+episode reward: 0.4099999999999997
+episode reward: 0.97
+episode reward: 1.0
+episode reward: 0.7799999999999999
+episode reward: 0.7799999999999999
+episode reward: 0.7899999999999999
+episode reward: 0.6799999999999999
+********************************************************
+steps: 45058
+episodes: 630
+mean 100 episode reward: 0.6
+% time spent exploring: 0.49309749999999997
+********************************************************
+episode reward: 0.7999999999999999
+episode reward: 0.11999999999999944
+episode reward: -0.42000000000000104
+episode reward: 0.6099999999999999
+episode reward: 0.5099999999999998
+episode reward: 0.73
+episode reward: 0.98
+episode reward: 0.84
+episode reward: 0.92
+episode reward: 0.21999999999999953
+********************************************************
+steps: 45928
+episodes: 640
+mean 100 episode reward: 0.6
+% time spent exploring: 0.4833099999999999
+********************************************************
+episode reward: 0.3099999999999996
+episode reward: 0.86
+episode reward: 0.9299999999999999
+episode reward: 0.09999999999999942
+episode reward: 0.7899999999999999
+episode reward: 0.5599999999999998
+episode reward: -0.22000000000000086
+episode reward: 0.5199999999999998
+episode reward: 0.4399999999999997
+episode reward: 0.5299999999999998
+********************************************************
+steps: 46868
+episodes: 650
+mean 100 episode reward: 0.6
+% time spent exploring: 0.472735
+********************************************************
+episode reward: 0.71
+episode reward: 0.10999999999999943
+episode reward: 0.20999999999999952
+episode reward: 0.99
+episode reward: 0.46999999999999975
+episode reward: -1.299999999999995
+episode reward: 0.5499999999999998
+episode reward: 0.04999999999999938
+episode reward: 0.86
+episode reward: -0.6100000000000012
+********************************************************
+steps: 48183
+episodes: 660
+mean 100 episode reward: 0.6
+% time spent exploring: 0.45794124999999997
+********************************************************
+episode reward: 0.91
+episode reward: 0.6799999999999999
+episode reward: 0.82
+episode reward: 0.5599999999999998
+episode reward: 0.2799999999999996
+episode reward: 0.3299999999999996
+episode reward: 0.91
+episode reward: 0.9
+episode reward: 0.009999999999999343
+episode reward: 0.98
+********************************************************
+steps: 48815
+episodes: 670
+mean 100 episode reward: 0.6
+% time spent exploring: 0.45083125
+********************************************************
+episode reward: 0.5699999999999998
+episode reward: 0.86
+episode reward: 0.7999999999999999
+episode reward: 0.5699999999999998
+episode reward: 0.89
+episode reward: 0.88
+episode reward: 0.4299999999999997
+episode reward: 0.96
+episode reward: 0.95
+episode reward: -0.5800000000000012
+********************************************************
+steps: 49487
+episodes: 680
+mean 100 episode reward: 0.6
+% time spent exploring: 0.44327125
+********************************************************
+episode reward: 0.6399999999999999
+episode reward: 0.94
+episode reward: 0.97
+episode reward: -0.7700000000000014
+episode reward: 0.03999999999999937
+episode reward: 0.74
+episode reward: 0.15999999999999948
+episode reward: -0.23000000000000087
+episode reward: 0.82
+episode reward: 0.85
+********************************************************
+steps: 50482
+episodes: 690
+mean 100 episode reward: 0.5
+% time spent exploring: 0.4320775
+********************************************************
+episode reward: 0.8099999999999999
+episode reward: 0.75
+episode reward: 0.69
+episode reward: 0.3099999999999996
+episode reward: 0.84
+episode reward: 0.3299999999999996
+episode reward: 0.99
+episode reward: 0.6599999999999999
+episode reward: 0.69
+episode reward: 0.44999999999999973
+********************************************************
+steps: 51072
+episodes: 700
+mean 100 episode reward: 0.5
+% time spent exploring: 0.42544000000000004
+********************************************************
+episode reward: 0.1999999999999995
+episode reward: 0.71
+episode reward: 0.6299999999999999
+episode reward: -6.661338147750939e-16
+episode reward: 0.94
+episode reward: -0.13000000000000078
+episode reward: 0.5499999999999998
+episode reward: 0.84
+episode reward: -0.6500000000000012
+episode reward: 0.85
+********************************************************
+steps: 52094
+episodes: 710
+mean 100 episode reward: 0.5
+% time spent exploring: 0.4139425
+********************************************************
+episode reward: 0.4199999999999997
+episode reward: 0.20999999999999952
+episode reward: -1.8399999999999834
+episode reward: 0.7999999999999999
+episode reward: 0.9
+episode reward: 0.7999999999999999
+episode reward: 0.6299999999999999
+episode reward: 0.1999999999999995
+episode reward: -0.17000000000000082
+episode reward: 0.4299999999999997
+********************************************************
+steps: 53290
+episodes: 720
+mean 100 episode reward: 0.5
+% time spent exploring: 0.4004875
+********************************************************
+episode reward: 0.9
+episode reward: 0.5999999999999999
+episode reward: -0.6800000000000013
+episode reward: 0.7799999999999999
+episode reward: 0.99
+episode reward: 0.44999999999999973
+episode reward: 0.48999999999999977
+episode reward: -0.360000000000001
+episode reward: 0.5299999999999998
+episode reward: 0.5899999999999999
+********************************************************
+steps: 54237
+episodes: 730
+mean 100 episode reward: 0.5
+% time spent exploring: 0.38983375
+********************************************************
+episode reward: 0.5199999999999998
+episode reward: 0.6699999999999999
+episode reward: -0.7400000000000013
+episode reward: 0.2999999999999996
+episode reward: -0.010000000000000675
+episode reward: -1.4199999999999924
+episode reward: 0.24999999999999956
+episode reward: 0.36999999999999966
+episode reward: 0.11999999999999944
+episode reward: 0.5499999999999998
+********************************************************
+steps: 55631
+episodes: 740
+mean 100 episode reward: 0.4
+% time spent exploring: 0.37415124999999994
+********************************************************
+episode reward: -0.8100000000000014
+episode reward: 0.69
+episode reward: 0.7899999999999999
+episode reward: 0.91
+episode reward: 0.72
+episode reward: 0.33999999999999964
+episode reward: 0.74
+episode reward: -0.2600000000000009
+episode reward: 0.5099999999999998
+episode reward: 0.89
+********************************************************
+steps: 56411
+episodes: 750
+mean 100 episode reward: 0.4
+% time spent exploring: 0.36537624999999996
+********************************************************
+episode reward: 0.47999999999999976
+episode reward: -0.44000000000000106
+episode reward: -0.6400000000000012
+episode reward: 0.12999999999999945
+episode reward: 0.72
+episode reward: 0.3999999999999997
+episode reward: 0.71
+episode reward: 0.3199999999999996
+episode reward: 0.8099999999999999
+episode reward: -0.1400000000000008
+********************************************************
+steps: 57552
+episodes: 760
+mean 100 episode reward: 0.4
+% time spent exploring: 0.35253999999999996
+********************************************************
+episode reward: 0.5799999999999998
+episode reward: 0.47999999999999976
+episode reward: 0.82
+episode reward: 0.48999999999999977
+episode reward: 0.35999999999999965
+episode reward: -0.22000000000000086
+episode reward: -0.5600000000000012
+episode reward: 0.08999999999999941
+episode reward: 0.04999999999999938
+episode reward: 0.6599999999999999
+********************************************************
+steps: 58625
+episodes: 770
+mean 100 episode reward: 0.4
+% time spent exploring: 0.34046875
+********************************************************
+episode reward: 0.72
+episode reward: 0.83
+episode reward: 0.2899999999999996
+episode reward: 0.95
+episode reward: 0.98
+episode reward: 0.09999999999999942
+episode reward: -6.661338147750939e-16
+episode reward: 0.7599999999999999
+episode reward: 0.6599999999999999
+episode reward: 0.22999999999999954
+********************************************************
+steps: 59345
+episodes: 780
+mean 100 episode reward: 0.4
+% time spent exploring: 0.33236875
+********************************************************
+episode reward: 0.2999999999999996
+episode reward: 0.69
+episode reward: 0.6599999999999999
+episode reward: 0.84
+episode reward: 0.91
+episode reward: 0.6399999999999999
+episode reward: 0.99
+episode reward: 0.92
+episode reward: 0.6399999999999999
+episode reward: -0.30000000000000093
+********************************************************
+steps: 59912
+episodes: 790
+mean 100 episode reward: 0.4
+% time spent exploring: 0.32599
+********************************************************
+episode reward: 0.9299999999999999
+episode reward: 0.91
+episode reward: 0.5999999999999999
+episode reward: 0.02999999999999936
+episode reward: -0.6800000000000013
+episode reward: -1.909999999999982
+episode reward: -0.2500000000000009
+episode reward: -0.390000000000001
+episode reward: 0.7999999999999999
+episode reward: 0.13999999999999946
+********************************************************
+steps: 61299
+episodes: 800
+mean 100 episode reward: 0.3
+% time spent exploring: 0.31038625
+********************************************************
+episode reward: 0.74
+episode reward: 0.98
+episode reward: -1.2299999999999964
+episode reward: 0.6399999999999999
+episode reward: 0.04999999999999938
+episode reward: -0.390000000000001
+episode reward: 0.95
+episode reward: 0.1799999999999995
+episode reward: 0.71
+episode reward: 0.11999999999999944
+********************************************************
+steps: 62334
+episodes: 810
+mean 100 episode reward: 0.3
+% time spent exploring: 0.2987425
+********************************************************
+episode reward: 0.5999999999999999
+episode reward: 0.009999999999999343
+episode reward: 0.69
+episode reward: -1.06
+episode reward: 0.87
+episode reward: 0.1899999999999995
+episode reward: 0.73
+episode reward: 0.92
+episode reward: -1.3799999999999932
+episode reward: 0.48999999999999977
+********************************************************
+steps: 63438
+episodes: 820
+mean 100 episode reward: 0.3
+% time spent exploring: 0.28632250000000004
+********************************************************
+episode reward: 0.09999999999999942
+episode reward: -0.030000000000000693
+episode reward: 0.04999999999999938
+episode reward: 0.22999999999999954
+episode reward: 0.96
+episode reward: -0.43000000000000105
+episode reward: -0.12000000000000077
+episode reward: 0.5499999999999998
+episode reward: -0.6700000000000013
+episode reward: -0.9500000000000015
+********************************************************
+steps: 64831
+episodes: 830
+mean 100 episode reward: 0.3
+% time spent exploring: 0.2706512499999999
+********************************************************
+episode reward: -6.661338147750939e-16
+episode reward: 0.84
+episode reward: 0.9
+episode reward: 0.1999999999999995
+episode reward: -0.0400000000000007
+episode reward: -0.5400000000000011
+episode reward: 0.3099999999999996
+episode reward: 0.23999999999999955
+episode reward: 0.88
+episode reward: 0.4099999999999997
+********************************************************
+steps: 65759
+episodes: 840
+mean 100 episode reward: 0.3
+% time spent exploring: 0.26021125
+********************************************************
+episode reward: 0.7899999999999999
+episode reward: 0.3899999999999997
+episode reward: 0.46999999999999975
+episode reward: 0.0799999999999994
+episode reward: -1.06
+episode reward: -0.4900000000000011
+episode reward: -0.09000000000000075
+episode reward: -1.2899999999999952
+episode reward: 0.3299999999999996
+episode reward: 0.4099999999999997
+********************************************************
+steps: 67170
+episodes: 850
+mean 100 episode reward: 0.2
+% time spent exploring: 0.24433749999999999
+********************************************************
+episode reward: 0.14999999999999947
+episode reward: -0.19000000000000083
+episode reward: -1.0000000000000013
+episode reward: 0.69
+episode reward: 0.04999999999999938
+episode reward: 0.09999999999999942
+episode reward: 0.0699999999999994
+episode reward: -0.17000000000000082
+episode reward: 0.01999999999999935
+episode reward: -0.6400000000000012
+********************************************************
+steps: 68600
+episodes: 860
+mean 100 episode reward: 0.2
+% time spent exploring: 0.22824999999999995
+********************************************************
+episode reward: 0.23999999999999955
+episode reward: -0.5300000000000011
+episode reward: -0.2600000000000009
+episode reward: 0.0699999999999994
+episode reward: -2.8199999999999625
+episode reward: -1.2899999999999952
+episode reward: -0.19000000000000083
+episode reward: -0.6300000000000012
+episode reward: 0.9299999999999999
+episode reward: -0.1400000000000008
+********************************************************
+steps: 70457
+episodes: 870
+mean 100 episode reward: 0.1
+% time spent exploring: 0.20735874999999993
+********************************************************
+episode reward: -1.2599999999999958
+episode reward: 0.4299999999999997
+episode reward: 0.82
+episode reward: 0.6599999999999999
+episode reward: -1.9899999999999802
+episode reward: -0.23000000000000087
+episode reward: -0.33000000000000096
+episode reward: -0.4800000000000011
+episode reward: 0.1799999999999995
+episode reward: -1.7499999999999853
+********************************************************
+steps: 72213
+episodes: 880
+mean 100 episode reward: 0.1
+% time spent exploring: 0.18760374999999996
+********************************************************
+episode reward: -1.0799999999999996
+episode reward: -0.44000000000000106
+episode reward: -3.009999999999959
+episode reward: -1.52999999999999
+episode reward: -2.429999999999971
+episode reward: -0.5600000000000012
+episode reward: 0.1999999999999995
+episode reward: -1.3199999999999945
+episode reward: -0.20000000000000084
+episode reward: -0.45000000000000107
+********************************************************
+steps: 74692
+episodes: 890
+mean 100 episode reward: -0.1
+% time spent exploring: 0.15971500000000005
+********************************************************
+episode reward: 0.9299999999999999
+episode reward: -2.0699999999999785
+episode reward: 0.23999999999999955
+episode reward: -0.4800000000000011
+episode reward: -0.8200000000000014
+episode reward: 0.13999999999999946
+episode reward: -0.9500000000000015
+episode reward: -0.5700000000000012
+episode reward: -4.479999999999928
+episode reward: 0.16999999999999948
+********************************************************
+steps: 76802
+episodes: 900
+mean 100 episode reward: -0.2
+% time spent exploring: 0.13597749999999997
+********************************************************
+episode reward: -0.23000000000000087
+episode reward: -0.350000000000001
+episode reward: 0.02999999999999936
+episode reward: -0.43000000000000105
+episode reward: -1.6999999999999864
+episode reward: -2.6299999999999666
+episode reward: -2.92999999999996
+episode reward: -0.20000000000000084
+episode reward: -0.2500000000000009
+episode reward: 0.71
+********************************************************
+steps: 78896
+episodes: 910
+mean 100 episode reward: -0.3
+% time spent exploring: 0.11241999999999996
+********************************************************
+episode reward: 0.20999999999999952
+episode reward: -3.3199999999999523
+episode reward: -0.5700000000000012
+episode reward: -0.5200000000000011
+episode reward: -3.2299999999999542
+episode reward: -0.6800000000000013
+episode reward: -4.629999999999924
+episode reward: -1.3099999999999947
+episode reward: -7.7199999999998585
+episode reward: -5.549999999999905
+********************************************************
+steps: 83019
+episodes: 920
+mean 100 episode reward: -0.6
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -1.5499999999999896
+episode reward: -3.809999999999942
+episode reward: -3.7899999999999423
+episode reward: -0.34000000000000097
+episode reward: -3.3599999999999515
+episode reward: -1.159999999999998
+episode reward: 0.83
+episode reward: -1.2899999999999952
+episode reward: -0.030000000000000693
+episode reward: 0.3099999999999996
+********************************************************
+steps: 85711
+episodes: 930
+mean 100 episode reward: -0.8
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -5.119999999999914
+episode reward: -2.099999999999978
+episode reward: -3.1299999999999564
+episode reward: -1.7499999999999853
+episode reward: -4.169999999999934
+episode reward: -9.189999999999849
+episode reward: -7.999999999999853
+episode reward: -3.609999999999946
+episode reward: -3.9799999999999383
+episode reward: -1.479999999999991
+********************************************************
+steps: 91383
+episodes: 940
+mean 100 episode reward: -1.2
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -3.949999999999939
+episode reward: -5.7799999999999
+episode reward: 0.2999999999999996
+episode reward: -9.059999999999851
+episode reward: -0.5800000000000012
+episode reward: -0.8700000000000014
+episode reward: -4.5299999999999265
+episode reward: -9.469999999999843
+episode reward: -0.8700000000000014
+episode reward: -9.179999999999849
+********************************************************
+steps: 96947
+episodes: 950
+mean 100 episode reward: -1.5
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -5.28999999999991
+episode reward: -2.099999999999978
+episode reward: -0.18000000000000083
+episode reward: -1.4199999999999924
+episode reward: -1.0300000000000007
+episode reward: -1.0100000000000011
+episode reward: -2.5299999999999687
+episode reward: -4.019999999999937
+episode reward: -4.879999999999919
+episode reward: -9.349999999999845
+********************************************************
+steps: 101392
+episodes: 960
+mean 100 episode reward: -1.9
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -9.12999999999985
+episode reward: -2.3499999999999726
+episode reward: -1.2899999999999952
+episode reward: -6.539999999999884
+episode reward: -9.199999999999848
+episode reward: -0.8800000000000014
+episode reward: -1.1899999999999973
+episode reward: -0.6900000000000013
+episode reward: -0.09000000000000075
+episode reward: -2.8099999999999627
+********************************************************
+steps: 106017
+episodes: 970
+mean 100 episode reward: -2.2
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -0.20000000000000084
+episode reward: -0.7100000000000013
+episode reward: -0.06000000000000072
+episode reward: -1.1799999999999975
+episode reward: -2.1699999999999764
+episode reward: -5.109999999999914
+episode reward: -0.4600000000000011
+episode reward: -3.9599999999999387
+episode reward: -5.809999999999899
+episode reward: -2.759999999999964
+********************************************************
+steps: 109588
+episodes: 980
+mean 100 episode reward: -2.4
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -1.3799999999999932
+episode reward: -3.609999999999946
+episode reward: -4.35999999999993
+episode reward: -6.609999999999882
+episode reward: -3.0799999999999574
+episode reward: -2.319999999999973
+episode reward: -4.289999999999932
+episode reward: -0.7000000000000013
+episode reward: 0.74
+episode reward: -5.30999999999991
+********************************************************
+steps: 114093
+episodes: 990
+mean 100 episode reward: -2.6
+% time spent exploring: 0.09999999999999998
+********************************************************
+episode reward: -0.5200000000000011
+episode reward: -0.34000000000000097
+episode reward: -0.12000000000000077
+episode reward: -6.849999999999877
+episode reward: -2.239999999999975
+episode reward: -6.799999999999878
+episode reward: -9.369999999999845
+episode reward: -0.23000000000000087
+episode reward: -6.869999999999877
+episode reward: -0.11000000000000076
+********************************************************
+steps: 118771
+episodes: 1000
+mean 100 episode reward: -2.9
+% time spent exploring: 0.09999999999999998
+********************************************************

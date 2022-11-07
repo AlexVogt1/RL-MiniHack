@@ -118,46 +118,46 @@ class BasicWrapper(gym.Wrapper):
 def createActionSpace():
     moves = tuple(nethack.CompassDirection)
     navActions = moves + (
-        nethack.Command.APPLY,
-        nethack.Command.AUTOPICKUP,
-        nethack.Command.CAST,
-        nethack.Command.CLOSE,
-        nethack.Command.DROP,
-        nethack.Command.EAT,
-        nethack.Command.ESC,
-        nethack.Command.FIRE,
-        nethack.Command.FIGHT,
-        nethack.Command.INVOKE,
-        nethack.Command.KICK,
-        nethack.Command.LOOK, 
-        nethack.Command.LOOT,
+        # nethack.Command.APPLY,
+        # nethack.Command.AUTOPICKUP,
+        # nethack.Command.CAST,
+        # nethack.Command.CLOSE,
+        # nethack.Command.DROP,
+        # nethack.Command.EAT,
+        # nethack.Command.ESC,
+        # nethack.Command.FIRE,
+        # nethack.Command.FIGHT,
+        # nethack.Command.INVOKE,
+        # nethack.Command.KICK,
+        # nethack.Command.LOOK, 
+        # nethack.Command.LOOT,
         nethack.Command.OPEN,
-        nethack.Command.PRAY,
-        nethack.Command.PUTON,
-        nethack.Command.QUAFF,
-        nethack.Command.READ,
-        nethack.Command.REMOVE,
-        nethack.Command.RIDE,
-        nethack.Command.RUB,
-        nethack.Command.SEARCH,
-        nethack.Command.TAKEOFF,
-        nethack.Command.TAKEOFFALL,
-        nethack.Command.THROW,
-        nethack.Command.TIP,
-        nethack.Command.WEAR,
-        nethack.Command.WIELD,
-        nethack.Command.ZAP
+        # nethack.Command.PRAY,
+        # nethack.Command.PUTON,
+        # nethack.Command.QUAFF,
+        # nethack.Command.READ,
+        # nethack.Command.REMOVE,
+        # nethack.Command.RIDE,
+        # nethack.Command.RUB,
+        # nethack.Command.SEARCH,
+        # nethack.Command.TAKEOFF,
+        # nethack.Command.TAKEOFFALL,
+        # nethack.Command.THROW,
+        # nethack.Command.TIP,
+        # nethack.Command.WEAR,
+        # nethack.Command.WIELD,
+        # nethack.Command.ZAP
     )
     return navActions
 
 def customGym(maxLength=10000, seed=0):
     reward_gen = RewardManager()
     reward_gen.add_eat_event("apple", reward=1, repeatable=False)
-    reward_gen.add_wield_event("wand", reward=20, repeatable=False) 
-    reward_gen.add_location_event("sink", reward=-1, terminal_required=False)
-    reward_gen.add_kill_event("minotaur",reward=40, repeatable=False)
+    # reward_gen.add_wield_event("wand", reward=20, repeatable=False) 
+    # reward_gen.add_location_event("sink", reward=-1, terminal_required=False)
+    # reward_gen.add_kill_event("minotaur",reward=40, repeatable=False)
     env = gym.make(
-        "MiniHack-Quest-Hard-v0",
+        "MiniHack-Room-5x5-v0",
         observation_keys=("chars", "inv_letters", "message"),
             reward_manager = reward_gen,
             actions=createActionSpace()

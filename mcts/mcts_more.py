@@ -158,7 +158,7 @@ def main():
     # number of steps allowed in the game since it never ends
     iters = 1000
 
-    for mpx in range(1):
+    for mpx in range(10):
         
         # initialize environment + actions and reward trackers
         prev_actions = []
@@ -182,6 +182,7 @@ def main():
         # uses action to step in the environment
         next_state, reward, done, info = env.step(selected_node.parent_action)
         
+        
         # records reward recieved
         rewards.append(reward)
         next_state = State(next_state,reward,done,info)
@@ -201,15 +202,21 @@ def main():
 
 
             prev_actions.append(selected_node.parent_action)
+            print(selected_node.parent_action)
 
             next_state, reward, done, info = env.step(selected_node.parent_action)
             rewards.append(reward)
             writer.writerow([reward])
 
-            print(f"Iter: {it}\tReward: {reward:.2f}")
+            print(f"Iter: {it}\tReward: {reward}")
             next_state = State(next_state,reward,done,info)
             #print(next_state.state_s)
             #env.render()
+            if done:
+                print('\n'*20,'done','\n'*20)
+
+            env.render()
+
         rewardArr = np.array(rewards)
         # saves the rewards received during game
         np.savetxt("rewardArr-{0}".format(mpx), rewardArr)
