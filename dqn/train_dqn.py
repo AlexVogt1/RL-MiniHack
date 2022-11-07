@@ -10,7 +10,7 @@ from minihack import RewardManager
 
 from gym import spaces
 
-def dqn(env, seed, max_episodes, max_episode_length,exp_hyper_params, verbose=True):
+def dqn(env, lvl, seed, max_episodes, max_episode_length,exp_hyper_params, verbose=True):
     """
     Method to train DQN model.
     
@@ -75,7 +75,7 @@ def dqn(env, seed, max_episodes, max_episode_length,exp_hyper_params, verbose=Tr
             frames.append(next_state["pixel"])
         if len(scores) % hyper_params['save-freq'] == 0 and done:
             gif = frames_to_gif(frames)
-            save_gif(gif,f'./video/Random_room{len(scores)}')
+            save_gif(gif,f'./video/{lvl}{len(scores)}')
             frames =[]
 
         next_state = format_state(next_state)
@@ -108,12 +108,12 @@ def dqn(env, seed, max_episodes, max_episode_length,exp_hyper_params, verbose=Tr
             print('mean 100 episode reward: {}'.format(mean_100ep_reward))
             print('% time spent exploring: {}'.format(eps_threshold))
             print('********************************************************')
-            np.savetxt('during_train_rewards_'+ f'_Random_room_{i}' +'.csv', scores, delimiter=',', fmt='%1.10f')
+            np.savetxt('during_train_rewards_'+ f'_{lvl}_{i}' +'.csv', scores, delimiter=',', fmt='%1.10f')
 
         
         #saving the model
         if ( done and hyper_params["save-freq"] is not None and len(scores) % hyper_params["save-freq"] == 0):
-            torch.save(agent.online_network, 'model'+ '_Random_room_'+str(len(scores)) +'.pt')
+            torch.save(agent.online_network, './models/model'+ f'_{lvl}_'+str(len(scores)) +'.pt')
 
         if num_episodes >=max_episodes:
             return scores
@@ -121,7 +121,7 @@ def dqn(env, seed, max_episodes, max_episode_length,exp_hyper_params, verbose=Tr
     return scores
 
 
-def run_dqn(env,num_eps,max_episode_steps,exp_hyper_params,iterations):
+def run_dqn(env,lvl_name,num_eps,max_episode_steps,exp_hyper_params,iterations):
     """Trains DQN model for a number of episodes on a given environment"""
     seeds = np.random.randint(42, size=iterations)
     scores_arr = [] 
@@ -129,7 +129,7 @@ def run_dqn(env,num_eps,max_episode_steps,exp_hyper_params,iterations):
     for seed in seeds:
         print(seed)
         # Train the DQN Model 
-        scores = dqn(env=env, seed=seed, max_episodes=num_eps, max_episode_length=max_episode_steps, exp_hyper_params =exp_hyper_params, verbose=True)
+        scores = dqn(env=env, seed=seed, lvl = lvl_name,max_episodes=num_eps, max_episode_length=max_episode_steps, exp_hyper_params =exp_hyper_params, verbose=True)
         # Store rewards for this iteration 
         scores_arr.append(scores)
         
@@ -289,6 +289,8 @@ if __name__ == "__main__":
     #     quest_hard_scores = run_dqn(env,num_eps=502,max_episode_steps=1000,exp_hyper_params=navigate_hyper_params,iterations=1)
     #     np.savetxt('rewards_'+ f'apple_{i}' +'.csv', quest_hard_scores, delimiter=',', fmt='%1.10f')
     
+    level_name = "MiniHack-Room-Random-15x15-v0"
+
     navigate_hyper_params = {
         'replay-buffer-size': int(5e3),
         'learning-rate': 0.01,
@@ -301,7 +303,7 @@ if __name__ == "__main__":
         'target-update-freq': 1000, # number of iterations between every target network update
         'eps-start': 1.0,  # e-greedy start threshold 
         'eps-end': 0.3,  # e-greedy end threshold 
-        'eps-fraction': 0.1,  # Percentage of the time that epsilon is annealed
+        'eps-fraction': 0.4,  # Percentage of the time that epsilon is annealed
         'print-freq': 10,
         'save-freq':100,
     }
@@ -325,10 +327,10 @@ if __name__ == "__main__":
         # nethack.Comman.UP,
         nethack.MiscDirection.DOWN, # in some levels you are requred to go down staircases inorder to win
     )
-    env = gym.make("MiniHack-Room-Random-15x15-v0", observation_keys=["glyphs","pixel","message"], actions=NAVIGATE_ACTIONS,max_episode_steps =1000)
+    env = gym.make(level_name, observation_keys=["glyphs","pixel","message"], actions=NAVIGATE_ACTIONS,max_episode_steps =1000)
     
 
     runs = 1
     for i in range(runs):
-        quest_hard_scores = run_dqn(env,num_eps=500,max_episode_steps=1000,exp_hyper_params=navigate_hyper_params,iterations=1)
-        np.savetxt('rewards_'+ f'Random_room_{i}' +'.csv', quest_hard_scores, delimiter=',', fmt='%1.10f')
+        level_scores = run_dqn(env,num_eps=500,max_episode_steps=1000,exp_hyper_params=navigate_hyper_params,iterations=1)
+        np.savetxt('./Reward csv/rewards_'+ f'{level_name}_{i}' +'.csv', level_scores, delimiter=',', fmt='%1.10f')
