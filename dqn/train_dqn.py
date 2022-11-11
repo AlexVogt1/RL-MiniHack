@@ -16,11 +16,12 @@ def dqn(env, lvl, seed, max_episodes, max_episode_length,exp_hyper_params, verbo
     
     Input:
     env: The environment to be used during training
+    lvl: name of the level you want to train
     seed: The random seed for any random operations performed 
     learning_rate: The learning rate uesd for the Adam optimizer when training the model 
     number_episodes: Number of episodes to train for 
     max_episode_length: The maximum number of steps to take in an episode before terminating
-    gamma: The discount factor used when calculating the discounted rewards of an episode
+    exp_hyper_params: the hyper params for the exeriment
     verbose: Print episode reward after each episode
     
     Returns:
@@ -70,7 +71,7 @@ def dqn(env, lvl, seed, max_episodes, max_episode_length,exp_hyper_params, verbo
         # Take step in environment
         (next_state, reward, done, _) = env.step(action)
 
-        #record steps every save-freq
+        # record steps every save-freq and then save the gif (computationally heavy)
         if len(scores) % hyper_params['save-freq'] == 0:
             frames.append(next_state["pixel"])
         if len(scores) % hyper_params['save-freq'] == 0 and done:
@@ -120,9 +121,9 @@ def dqn(env, lvl, seed, max_episodes, max_episode_length,exp_hyper_params, verbo
 
     return scores
 
-
+#trains the dqn
 def run_dqn(env,lvl_name,num_eps,max_episode_steps,exp_hyper_params,iterations):
-    """Trains DQN model for a number of episodes on a given environment"""
+
     seeds = np.random.randint(42, size=iterations)
     scores_arr = [] 
     
@@ -142,14 +143,14 @@ if __name__ == "__main__":
     print(f'Training {level_name}')
 
     navigate_hyper_params = {
-        'replay-buffer-size': int(5e3),
-        'learning-rate': 0.01,
+        'replay-buffer-size': int(5e3), #size of replay buffer
+        'learning-rate': 0.01, #learning rate
         'gamma': 0.99,  # discount factor
         'num-steps': int(2e6),  # Steps to run for, max episodes should be hit before this
-        'batch-size': 32,  
+        'batch-size': 32,  #size of the batch
         'learning-starts': 1000,  # set learning to start after 1000 steps of exploration
         'learning-freq': 1,  # Optimize after each step
-        'use-double-dqn': True,
+        'use-double-dqn': True, # bool of using double
         'target-update-freq': 1000, # number of iterations between every target network update
         'eps-start': 1.0,  # e-greedy start threshold 
         'eps-end': 0.3,  # e-greedy end threshold 
